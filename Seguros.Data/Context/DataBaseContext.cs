@@ -4,6 +4,7 @@ namespace Seguros.Data.Context
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
+    using Seguros.Data.Entities;
 
     public class DataBaseContext : DbContext
     {

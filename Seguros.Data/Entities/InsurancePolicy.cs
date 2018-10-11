@@ -1,4 +1,4 @@
-namespace Seguros.Data
+namespace Seguros.Data.Entities
 {
     using System;
     using System.Collections.Generic;
