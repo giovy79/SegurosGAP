@@ -8,7 +8,7 @@ using Seguros.Data.Entities;
 
 namespace Seguros.Data.Interfaces
 {
-    public interface IInsurancePolicy : IBaseCRUDRepository<InsurancePolicy>
+    public interface IInsurancePolicyRepository : IBaseCRUDRepository<InsurancePolicy>
     {
 
     }

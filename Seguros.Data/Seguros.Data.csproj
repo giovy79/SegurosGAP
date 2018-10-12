@@ -58,6 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entities\RiskCoverage.cs" />
     <Compile Include="Entities\RiskType.cs" />
+    <Compile Include="Repositories\InsurancePolicyRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -69,5 +70,6 @@
       <Name>Seguros.Settings</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Seguros.Common
+namespace Seguros.Common.Enums
 {
-    public class Class1
+    public enum RiskType
     {
+        Bajo = 1,
+        Medio,
+        MedioAlto,
+        Alto,
     }
 }
